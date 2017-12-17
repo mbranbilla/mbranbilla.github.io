@@ -6,34 +6,35 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Hyperspace
-email: youremailaddress@gmail.com
-description: The Jekyll version of the Hyperspace theme by HTML5 UP.
+title: Blue Data
+email: mbranbilla@outlook.com
+description: Data Science em Foco - Dicas, tutoriais e divulgação.
 baseurl: "/hyperspace-jekyll-theme" # the subpath of your site, e.g. /blog
-url: "https://andrewbanchich.gitlab.io" # the base hostname & protocol for your site
+url: "https://mbranbilla.github.io/" # the base hostname & protocol for your site
 
 # Social settings
 500px_url: 
-facebook_url: https://facebook.com
-github_url: 
-gitlab_url: https://gitlab.com/u/andrewbanchich
-googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
-instagram_url: https://instagram.com
-linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+facebook_url: https://www.facebook.com/mbranbilla
+github_url: https://github.com/mbranbilla
+gitlab_url: 
+googleplus_url: 
+instagram_url: https://instagram.com/mbranbilla
+linkedin_url: www.linkedin.com/in/mauricio-branbilla-junior-2364b2118
 pinterest_url: 
 slack_url: 
-twitter_url: https://twitter.com/andrewbanchich
+twitter_url: 
 
 # Build settings
 markdown: kramdown
 
 # Plugin: jekyll-seo-tag
-twitter:
-  username: andrewbanchich
+#twitter:
+#  username: andrewbanchich
 # Add one or more of the following
-facebook:
-  app_id: 
-  publisher: 
-  admins: 
-logo:
-google_site_verification: 
+#facebook:
+#  app_id: 
+#  publisher: 
+#  admins: 
+#logo:
+#google_site_verification: 
+#google_site_verification: 
