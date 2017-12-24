@@ -27,7 +27,7 @@ Acreditando na importência da divulgação científica e com desejo de "me ajud
 
   Um pouco mais para o lado pessoal, sou fã de clássicos da literatura de terror, tenho o treino de caligrafia como hobbie, coleciono canetas e cadernos e sou muito fã de automobilismo. 
 
-#### Por que Blue Data?
+### Por que Blue Data?
   Frequentemente, azul é uma cor atribuída à harmonia, calma e serenidade. Mais que isso, é um tom frio que também pode estar associado à frieza e monotomia. 
 
   No geral, muitas pessoas associam o trabalho com dados à monotomia e ao trabalho massante de gerir banco de dados. Mas aqui, em Data Science, o sentimento é completamente diferente - costuma ser um trabalho divertido e cheio de descobertas.
