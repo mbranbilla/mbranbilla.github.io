@@ -17,7 +17,7 @@ Acreditando na importência da divulgação científica e com desejo de "me ajud
 
 ### Um pouco sobre mim
 
-<span class="image right"><img src="{{ "/images/me.jpg" | absolute_url }}" alt="" /></span>
+<span class="image right"><img src="{{ "/images/about-me.jpg" | absolute_url }}" alt="" /></span>
 
   Me chamo Mauricio Branbilla Junior e sou estudante de física. Realizei iniciação científica em física nuclear de altas energias, desenvolvendo detectores de radiação para raios cósmicos. Esse período foi meu primeiro contato com análises de grandes volumes de dados e, também, com programação. 
 
