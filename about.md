@@ -32,7 +32,7 @@ Acreditando na importência da divulgação científica e com desejo de "me ajud
 
   No geral, muitas pessoas associam o trabalho com dados à monotomia e ao trabalho massante de gerir banco de dados. Mas aqui, em Data Science, o sentimento é completamente diferente - costuma ser um trabalho divertido e cheio de descobertas.
 
-  Acredito que a cor azul possa representar bem essas duas faces mas, acima de tudo, é a cor que me vêm à mente toda vez que finalizo uma análise cujo obtive resultados impressionantes. A sensação é de estar saindo da escuridão e estar encontrando o planeta terra novamente, todo azulado, bem à sua frente. 
+  Acredito que a cor azul possa representar bem essas duas faces mas, acima de tudo, é a cor que me vêm à mente toda vez que finalizo uma análise a qual obtive resultados impressionantes. A sensação é de estar saindo da escuridão e estar encontrando o planeta terra novamente, todo azulado, bem à sua frente. 
 
 <span class="image center"><img src="{{ "/images/earth.jpg" | absolute_url }}" alt="" /></span>
 
