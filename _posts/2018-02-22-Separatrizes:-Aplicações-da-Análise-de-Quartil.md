@@ -12,11 +12,11 @@ O valor de uma separatriz é o valor de corte que divide uma região em partes s
 
 Vamos considerar este exemplo: 12 ocorrências de uma variável descritiva X.
 
-![](images/tab1.png "Variável X")
+ <img src="/images/tab1.png" alt="Variável X"> 
 
 Caso desejássemos estudar as regiões que apresentam maior concentração de valores assumidos por xi, podemos dividir este conjunto em *quartís* da seguinte maneira
 
-![](images/tab2.png "Identificando quartis")
+ <img src="/images/tab2.png" alt="Identificando quartis"> 
 
 Agora que separamos as regiões, vamos calcular os valores de Q1, Q2, Q3 e Q4, que são os valores que limitam cada quartil. 
 
@@ -26,14 +26,11 @@ O valor que limita o segundo quartil corresponde à mediana do conjunto. Se **x*
 
 Para os dois quartís restantes, os valores que dividem este conjunto possuem um racional análogo ao cálculo da mediana. Vamos verificar o primeiro caso:
 
-![](images/tab3.png "Primeiro e segundo quartil")
+ <img src="/images/tab3.png" alt="Primeiro e segundo quartil">
+ 
+ No caso do terceiro quartil:
 
-O valor exato que divide os dois primeiros quartis será a média entre os dois elementos centrais. Logo **Q1 = (2 + 3)/2 = 2,5**.
-
-No caso do terceiro quartil:
-
-![](images/tab4.png "Terceiro e quarto quartil")
-
+ <img src="/images/tab4.png" alt="Terceiro e quarto quartil">
 
 **Q1 = (30 + 30)/2 = 30**
 
@@ -90,7 +87,8 @@ Você deseja encontrar um valor razoável para esta nota em que qualquer valor a
 
  Com o exemplo de quartis, supondo que as notas atribuídas aos seus emails sejam as mostradas na variável X acima.
 
-![](images/tab2.png "Score de emails")
+ <img src="/images/tab4.png" alt="Score de emails">
+
 
 Se você aproximadamente 30% dos seus emails que são classificados como spams trata-se de falsos positivos, você poderá ajustar seu novo filtro para que os emails que possuam score abaixo do valor do primeiro quartil (Q1) sejam automaticamente movidos à sua caixa de entrada. Ou ainda determinar que email que apresentem nota acima do terceiro quartil sejam excluídos automaticamente. 
 
