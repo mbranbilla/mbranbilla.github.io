@@ -20,9 +20,9 @@ Caso desejássemos estudar as regiões que apresentam maior concentração de va
 
 Agora que separamos as regiões, vamos calcular os valores de Q1, Q2, Q3 e Q4, que são os valores que limitam cada quartil. 
 
-O valor mais simples de se definir é, de cara, o valor do 4º quartil, pois este corresponde ao valor máximo que esta variável assume. Logo **Q4 = max(x) = 86**.
+O valor mais simples de se definir é, de cara, o valor do 4º quartil, pois este corresponde ao valor máximo que esta variável assume. Logo <b>Q4 = max(x) = 86</b>.
 
-O valor que limita o segundo quartil corresponde à mediana do conjunto. Se **x** possuir um número ímpar de elemento, a mediana é o valor no centro do conjunto ordenado, caso possua um número par de elementos, é a média entre os dois valores centrais. Neste caso, trata-se de uma variável ordenada com um número par de elementos. Logo, o valor de **Q2** será dado por **(11 + 27)/2 = 19**. Assim, o valor que corta o conjunto ao meio será **Q2 = 19**.
+O valor que limita o segundo quartil corresponde à mediana do conjunto. Se <b>x</b> possuir um número ímpar de elemento, a mediana é o valor no centro do conjunto ordenado, caso possua um número par de elementos, é a média entre os dois valores centrais. Neste caso, trata-se de uma variável ordenada com um número par de elementos. Logo, o valor de <b>Q2</b> será dado por <b>(11 + 27)/2 = 19</b>. Assim, o valor que corta o conjunto ao meio será <b>Q2 = 19</b>.
 
 Para os dois quartís restantes, os valores que dividem este conjunto possuem um racional análogo ao cálculo da mediana. Vamos verificar o primeiro caso:
 
@@ -32,7 +32,7 @@ Para os dois quartís restantes, os valores que dividem este conjunto possuem um
 
  <img src="/images/tab4.png" alt="Terceiro e quarto quartil">
 
-**Q1 = (30 + 30)/2 = 30**
+<b>Q1 = (30 + 30)/2 = 30</b>
 
 Com essa análise, conseguimos extrair as seguintes informações
 
@@ -72,7 +72,8 @@ Com essa análise, conseguimos extrair as seguintes informações
 
 Ou seja, fica evidente que, apesar da variável assumir um valor máximo de 86, a concentração de valores está localizada abaixo do valor 30 (que corta em 75% a amostra total) e que 50% das ocorrências desta variável encontram-se abaixo de 19.
 
-**Ok, mas porque isso pode ser útil?**
+
+<b>Ok, mas porque isso pode ser útil?</b>
 
 Existem diversas aplicações deste método. A grosso modo, sempre que precisamos entender por quais valores há uma maior concentração de ocorrências de uma variável. Mas vamos pensar de uma forma menos técnica. 
 
@@ -83,11 +84,12 @@ Vamos supor que você criou um identificador de palavras que, baseado na ocorrê
 
 Você deseja encontrar um valor razoável para esta nota em que qualquer valor acima dela o email continue na sua caixa de spam, mas caso esse score esteja abaixo desta nota, este email seja movido de volta para sua caixa de entrada. A única informação que você dispõe é do seu histórico de emails e as notas que seu novo modelo calculou para eles. 
 
-**Resumo do caso: você precisa saber para quais valores a distribuição de notas atribuídas aos seus emails está concentrada.**
+
+<b>Resumo do caso: você precisa saber para quais valores a distribuição de notas atribuídas aos seus emails está concentrada.</b>
 
  Com o exemplo de quartis, supondo que as notas atribuídas aos seus emails sejam as mostradas na variável X acima.
 
- <img src="/images/tab4.png" alt="Score de emails">
+ <img src="/images/tab2.png" alt="Score de emails">
 
 
 Se você aproximadamente 30% dos seus emails que são classificados como spams trata-se de falsos positivos, você poderá ajustar seu novo filtro para que os emails que possuam score abaixo do valor do primeiro quartil (Q1) sejam automaticamente movidos à sua caixa de entrada. Ou ainda determinar que email que apresentem nota acima do terceiro quartil sejam excluídos automaticamente. 
@@ -95,7 +97,7 @@ Se você aproximadamente 30% dos seus emails que são classificados como spams t
 
 ### 3. Aplicaçes em R
 
-Para a utilização de qualquer separatriz, existe o comando **quantile** presentes nos pacotes base do R. O uso deste comando é extremamente simples e leva como parâmetros o objeto que contém seus dados e a probabilidade desejada, que deve corresponder com a da separatriz em questão. Mais detalhes deste comando podem ser acessados [na própria documentação do R](https://www.rdocumentation.org/packages/stats/versions/3.4.3/topics/quantile)
+Para a utilização de qualquer separatriz, existe o comando <b>quantile</b> presentes nos pacotes base do R. O uso deste comando é extremamente simples e leva como parâmetros o objeto que contém seus dados e a probabilidade desejada, que deve corresponder com a da separatriz em questão. Mais detalhes deste comando podem ser acessados [na própria documentação do R](https://www.rdocumentation.org/packages/stats/versions/3.4.3/topics/quantile)
 
 Vamos ver um exemplo de como utiliza-lo:
 
