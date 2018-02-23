@@ -51,7 +51,7 @@ Com essa análise, conseguimos extrair as seguintes informações
   <tr>
    <th style="text-align:left;"> Q1 </th>
    <th style="text-align:right;"> 25% dos valores assumidos por X encontram-se abaixo deste número </th>
-   <th style="text-align:right;"> 2,5 /th>
+   <th style="text-align:right;"> 2,5 </th>
   </tr>
  <tr>
    <th style="text-align:left;"> Q2 </th>
