@@ -10,4 +10,8 @@ Existem diferentes formas simétricas de dividir um conjunto ordenado em separat
 
 O valor de uma separatriz é o valor de corte que divide uma região em partes simétricas, isso significa que todas as ocorrências dessa variável cujo o valor está abaixo deste valor de corte estão contidas na região compreendida por esta separatriz. Isso parece ser bem confuso, então vamos a um exemplo para tentar deixar as coisas mais claras!
 
- <a><img src="/home/mbranbilla/Projects/mbranbilla.github.io/_posts/images/tab1.png" title="Variavel X" /></a> 
+![](images/tab1.png "Variável X")
+
+
+
+ 
