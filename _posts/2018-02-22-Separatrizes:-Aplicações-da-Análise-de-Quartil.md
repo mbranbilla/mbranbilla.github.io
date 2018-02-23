@@ -94,7 +94,8 @@ Você deseja encontrar um valor razoável para esta nota em que qualquer valor a
 
 Se você aproximadamente 30% dos seus emails que são classificados como spams trata-se de falsos positivos, você poderá ajustar seu novo filtro para que os emails que possuam score abaixo do valor do primeiro quartil (Q1) sejam automaticamente movidos à sua caixa de entrada. Ou ainda determinar que email que apresentem nota acima do terceiro quartil sejam excluídos automaticamente. 
 
-### Aplicaçes em R
+
+### 3. Aplicaçes em R
 
 Para a utilização de qualquer separatriz, existe o comando **quantile** presentes nos pacotes base do R. O uso deste comando é extremamente simples e leva como parâmetros o objeto que contém seus dados e a probabilidade desejada, que deve corresponder com a da separatriz em questão. Mais detalhes deste comando podem ser acessados [na própria documentação do R](https://www.rdocumentation.org/packages/stats/versions/3.4.3/topics/quantile)
 
